@@ -1,2 +1,2 @@
 #!/bin/bash
-echo -e 'Hello, World! \c This is PNAP!'
+echo -e 'Hello, World! \n'
