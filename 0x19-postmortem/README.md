@@ -1,14 +1,14 @@
-#Issue Summary:
+## Issue Summary:
 
-#Duration: 
+## Duration: 
 The outage occurred from May 3, 2024, 10:00 AM to May 3, 2024, 2:00 PM (UTC).
-#Impact:
+## Impact:
  The web application experienced complete unavailability, affecting 75% of active users. Users attempting to access the service encountered connection errors and timeouts.
-#Root Cause:
+## Root Cause:
 
 The root cause of the outage was identified as a misconfiguration in the load balancer settings, leading to an overload on one of the application servers.
 
-#Timeline:
+## Timeline:
 
 10:00 AM (UTC): Issue detected by monitoring alerts indicating a spike in server response times.
 10:05 AM (UTC): Engineering team notified through automated alerting systems.
@@ -24,12 +24,13 @@ The misconfiguration in the load balancer caused uneven distribution of traffic,
 
 To resolve the issue, the load balancer settings were corrected to evenly distribute incoming traffic across all available application servers. This restored balance and stability to the system, allowing it to handle user requests effectively.
 
-#Corrective and Preventative Measures:
+## Corrective and Preventative Measures:
 
 Load Balancer Configuration Review: Conduct a thorough review of load balancer settings to ensure proper distribution of traffic.
 Automated Health Checks: Implement automated health checks to promptly detect and alert on any misconfigurations or anomalies in system components.
 Enhanced Monitoring: Enhance monitoring systems to provide deeper insights into server performance metrics, enabling quicker identification of issues.
 Regular Training: Provide regular training sessions for engineering teams to improve troubleshooting skills and familiarity with system components.
-#Conclusion:
 
-The outage was a result of a misconfiguration in the load balancer, leading to service unavailability for a significant portion of users. By promptly identifying and correcting the issue, the service was restored within a few hours. Moving forward, implementing corrective measures and enhancing monitoring will help prevent similar incidents and ensure the stability and reliability of the platform
+## Conclusion:
+
+The outage was a result of a misconfiguration in the load balancer, leading to service unavailability for a significant portion of users. By promptly identifying and correcting the issue, the service was restored within a few hours. Moving forward, implementing corrective measures and enhancing monitoring will help prevent similar incidents and ensure the stability and reliability of the platform:
